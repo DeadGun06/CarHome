@@ -1,0 +1,56 @@
+body{
+  margin:0;
+  font-family:Segoe UI,sans-serif;
+  background:#f3f3f3;
+}
+
+.topbar{
+  background:#fff;
+  padding:20px;
+  box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+.topbar h1{
+  margin:0 0 10px;
+}
+
+input{
+  padding:10px;
+  width:260px;
+  border:1px solid #ccc;
+  border-radius:8px;
+}
+
+.tabbar{
+  padding:15px;
+}
+
+button{
+  padding:10px 14px;
+  margin-right:6px;
+  border:none;
+  background:#1D9E75;
+  color:#fff;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:15px;
+  padding:20px;
+}
+
+.card{
+  background:#fff;
+  padding:15px;
+  border-radius:12px;
+  box-shadow:0 2px 8px rgba(0,0,0,.06);
+}
+
+.empty{
+  text-align:center;
+  padding:40px;
+  color:#666;
+}
